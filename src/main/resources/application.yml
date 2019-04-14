@@ -1,0 +1,8 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,env,metrics,prometheus
+
+server:
+  port: 8888
