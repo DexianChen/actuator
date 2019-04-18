@@ -5,4 +5,4 @@ management:
         include: health,info,env,metrics,prometheus
 
 server:
-  port: 8888
+  port: 8763
